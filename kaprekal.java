@@ -20,7 +20,7 @@ public class kaprekal {
      }else{
         System.out.println("Not a Kaprekar Number");
      }
-     scan.nextInt();
+     scan.close();
     }
     
 }
