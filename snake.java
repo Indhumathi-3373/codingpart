@@ -1,5 +1,5 @@
 import java.util.*;
-public class snaparray {
+public class snake {
     public static void main(String args[]){
      Scanner scan=new Scanner(System.in);
     int n1=scan.nextInt();
