@@ -17,7 +17,7 @@ public class spiral_array{
             }
         for(int j=n1-1;j<n1;j--){
 
-        }
-        }
+        }//not complete yet
+        }scan.close();
     }
     }
