@@ -1,11 +1,11 @@
 
 import java.util.*;
-public class fibonacci {
+public class fibonaccirecursion {
     static int fibo(int num,int fact){
         if(num==0 || num==1){
             return num;
         }else{
-            return 1;
+            return fact;
         }
     }
     public static void main(String args[]){

@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class recursion {
+public class countdigitrecursion {
     static int digits(int num){
      if(num <=9){
         return 1;

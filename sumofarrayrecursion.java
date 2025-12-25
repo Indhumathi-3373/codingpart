@@ -1,6 +1,6 @@
 //recursion
 import java.util.*;
-public class sumofarray {
+public class sumofarrayrecursion {
     static int sum(int a[],int size){
          if(size==0){
             return 0;
