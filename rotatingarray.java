@@ -18,6 +18,7 @@ public class rotatingarray {
         System.out.print(arr[i]);
         
     }System.out.print(arr[j]);
+    System.out.println();
 }
 scan.close();
 }
