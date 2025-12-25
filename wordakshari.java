@@ -8,8 +8,8 @@ public class wordakshari {
         while(!input.equals(exit)){
             System.out.println(input);
             String input1=scan.nextLine();
-            if(input1.charAt(0)==
+          
         }
-
+scan.close();
     }
 }

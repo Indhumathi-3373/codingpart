@@ -5,7 +5,7 @@ public class fibonacci {
         if(num==0 || num==1){
             return num;
         }else{
-            return fibo(num-1)+fibo(num-2);
+            return 1;
         }
     }
     public static void main(String args[]){

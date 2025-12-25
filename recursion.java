@@ -10,6 +10,6 @@ public class recursion {
     }public static void main(String args[]){
          Scanner scan= new Scanner(System.in);
          int n=scan.nextInt();
-        System.out.println(digits(n));
+        System.out.println(digits(n));scan.close();
     }
 }

@@ -4,8 +4,7 @@
          Scanner scan=new Scanner(System.in);
          int n=scan.nextInt();
          int original=n;
-         int fd;
-         int ld;
+         int fd,ld;
          int count=0;
          if(n<0){
             n=Math.abs(n);original=n;
