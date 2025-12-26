@@ -23,11 +23,10 @@ public class minarrayrecursion {
     }
     int c=0;
     // ternary operation
-    for(int i=0;i<size-1;i++){
-        for(int j=i+1;j<size;j++){
-        if(a[i]>a[j]){
-           
-        }}
+        for(int j=0;j<size-1;j++){
+        if(a[j]<a[j+1]){
+           c=a[j];
+        }
     }System.out.println("minimum element in an array is : "+c);
 
     // System.out.println(min(a,size));
