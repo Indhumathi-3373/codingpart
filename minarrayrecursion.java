@@ -4,18 +4,15 @@ public class minarrayrecursion {
     // static OptionalInt  min(int a[],int size){
     //     return Arrays.stream(a).min();
     // } 
-    static int i=0;
-    static int c=0;
+    //using ternary operation in recursion
     static int min(int a[],int size){
         if(size==1 ){
           return a[0];}
-        else{
-            if(a[size-1]>a[i]){
-                c=a[i];
-                a[size-1]=c;
-            }
+        int min=min(a,size-1);
+        if(a[size-1]<min){
+            return a[size-1];
         }
-        return   min(a,size-1); 
+        return min;
     }
     public static void main(String args[]){
     Scanner scan=new Scanner(System.in);
