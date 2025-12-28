@@ -11,15 +11,19 @@ public class rotatingarray {
     for(int i=0;i<size;i++){
         arr[i]=scan.nextInt();
     }
-    
+
     for(int j=0;j<rotate;j++){
-    for(int i=1;i<size;i++){
-        
-        System.out.print(arr[i]);
-        
-    }System.out.print(arr[j]);
-    System.out.println();
+        int temp=arr[j];
+      for(int i=0;i<size-1;i++){
+        arr[i]=arr[i+1];
+    }
+    arr[size-1]=temp;
 }
+    System.out.println(" rotating an array:");
+    for(int i=0;i<size;i++){
+        System.out.print(arr[i]);
+    }
+
 scan.close();
 }
     
