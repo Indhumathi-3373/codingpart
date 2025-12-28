@@ -6,7 +6,7 @@ public class twoarray_equal {
     int n2=scan.nextInt();
     int arr1[]=new int[n1];
     int arr2[]=new int[n2];
-    int sum=0;
+    boolean equal=false;
     System.out.println("enter elements for array 1 :");
     for(int i=0;i<=n1-1;i++){
         arr1[i]=scan.nextInt();
@@ -15,14 +15,20 @@ public class twoarray_equal {
         arr2[j]=scan.nextInt();
     }
   if(arr1.length==arr2.length){
-      for(int i=0;i<=arr1.length-1;i++){
-        for(int j=0;j<=arr2.length-1;j++){
-            int temp=arr1[i]+arr2[j];
-             sum=sum+temp;
-        }
-      }System.out.println("Both arrays are same");
+    //below check both array order whether same or not
+    // for(int i=0;i<n1;i++){
+    //     if(arr1[i]!=arr2[i]){
+    //       equal=false;
+    //       break;
+    //     }
+    // }
+    //below checks whether one array contains element of another array 
+    if(Arrays.equals(arr1,arr2)){equal =true;}
+  }
+  if(equal){
+      System.out.println("Both arrays are same");
  }else{
     System.out.println("Both arrays are not same");
  }scan.close();
-}
- } 
+}}
+ 
