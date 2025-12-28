@@ -21,6 +21,7 @@ public class gcdrecursion {
         //      num=num2;
         //      num2=temp;
         //  }System.out.println(num);
-        System.out.println(gcd(num,num2));scan.close();
+        System.out.println(gcd(num,num2));
+        scan.close();
     }
 }
