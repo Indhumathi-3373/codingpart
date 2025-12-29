@@ -10,10 +10,17 @@ public class non_repeating_char {
                 if(ch[i]==ch[j]){
                     ch[j]='0';
                 }}
-        }for(char c:ch){
+        }for(char c:ch){//originals after removed duplicates
             if(c!='0'){
               System.out.print(c);
             }
+        }for(char c:ch){//first element of original after removed duplicates
+            if(c!='0'){
+              System.out.print("\n"+c);}
+              break;
+            // }else if(Arrays.){
+
+            // }
         }
         scan.close();
     }
