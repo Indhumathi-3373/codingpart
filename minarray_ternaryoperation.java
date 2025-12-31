@@ -14,11 +14,11 @@ public class minarray_ternaryoperation {
      System.out.println("minimum element of an array using ternary operator:");
         for(int i=0;i<1;i++){
             for(int j=0;j<size-1;j++){
-            if(a[i]>a[j+1]){
+            if(a[i]<a[j+1]){
                 c=a[j+1];
                 a[i]=c;
-
-            }
+            }//u can find min array after sorting an array or using built in methods above is using ternary operation
+            //as same as this for max array element use < instead of >
         }System.out.println(a[i]);
     }scan.close();
       }
