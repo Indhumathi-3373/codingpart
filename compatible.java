@@ -12,7 +12,7 @@ public class compatible {
         for (int j = 0; j <= n2 - 1; j++)  arr2[j] = scan.nextInt();
         int flag=0;
         if (n1 == n2) {
-            for (int i = 0; i <= n1 - 1; i++) {
+            for (int i = 0; i <= n1 - 1; i++) {//both array have same size and same elements in same order
                     if (arr[i] < arr2[i]) {
                         flag=1;break;
                     } 
