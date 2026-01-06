@@ -1,4 +1,4 @@
-//recursion
+//one dimensional array
 import java.util.*;
 public class sumofarrayrecursion {
     static int sum(int a[],int size){
@@ -15,12 +15,7 @@ public class sumofarrayrecursion {
             a[i]=scan.nextInt();
         }
         System.out.println(sum(a,size));scan.close();
-        //sum of two array
-        //for(int i=0;i<=arr1.length-1;i++){
-        //for(int j=0;j<=arr2.length-1;j++){
-          //  int temp=arr1[i]+arr2[j];
-            // sum=sum+temp;
-        //}
-      //}
+        
+        
     }
 }

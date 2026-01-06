@@ -1,5 +1,5 @@
 import java.util.*;
-public class distance {
+public class distance_hops {
     public static void main(String args[]){
        Scanner scan=new Scanner(System.in);
        int x2=scan.nextInt();
