@@ -11,13 +11,13 @@ public class sum_of_twoarray {
         for(int i=0;i<n;i++){
             arr1[i]=scan.nextInt();
         }  System.out.println("enter element for array two:"); for(int j=0;j<n;j++){
-            arr1[j]=scan.nextInt();
+            arr2[j]=scan.nextInt();
         }
-        for(int i=0;i<=arr1.length-1;i++){
-        for(int j=0;j<=arr2.length-1;j++){
-             temp=arr1[i]+arr2[j];
+        for(int i=0;i<arr1.length;i++){
+        
+             sum=sum+arr1[i]+arr2[i];
              
-        }
+        
       }System.out.println(sum);scan.close();
     }
 }

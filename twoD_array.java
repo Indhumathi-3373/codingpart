@@ -12,8 +12,7 @@ public class twoD_array {
             }
     }
     for(int i=0;i<n1;i++){for(int j=0;j<n1;j++){ System.out.print(arr1[i][j]);}System.out.println();}
-    System.out.println("\nTRANSPOSE OF AN ARRAY");
-    for(int i=0;i<n1;i++){for(int j=0;j<n1;j++){ System.out.print(+arr1[j][i]);}System.out.println();}scan.close();
+scan.close();
     }
     }
 
