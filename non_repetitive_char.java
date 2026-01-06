@@ -16,12 +16,12 @@ public class non_repetitive_char {
                 }
             }
         }
-        for (char c : ch) {// print all non repetitive characters
-            if (c != '0') {
-                System.out.print(c);
-            }
+        // for (char c : ch) {// print all non repetitive characters
+        //     if (c != '0') {
+        //         System.out.print(c);
+        //     }
 
-        }
+        // }
         boolean repetitive = true;
         for (char c : ch) {
             if (c != '0') {//if one character matches 0 it becomes repetive
