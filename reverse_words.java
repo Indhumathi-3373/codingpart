@@ -1,5 +1,5 @@
 import java.util.*;
-public class reversestring {
+public class reverse_words {
     public static void main(String args[]){
         Scanner scan=new Scanner(System.in);
         String a[]=scan.nextLine().split(" ");//split input into separate words according to space 
