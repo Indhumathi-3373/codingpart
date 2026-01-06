@@ -1,5 +1,5 @@
 import java.util.*;
-public class separate_int_string {
+public class alpha_num_str_separation {
 public static void main(String args[]){
     Scanner scan=new Scanner(System.in);
     String input=scan.nextLine().toLowerCase();;

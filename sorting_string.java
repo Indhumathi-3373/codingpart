@@ -9,7 +9,7 @@ public class sorting_string {
         // Arrays.sort(ch);
         // String sorted=new String(ch);
         // System.out.println("sorted string using built-in methods : " + sorted);
-        //without built-in methods
+        
         for(int i=0;i<ch.length-1;i++){
             for(int j=i+1;j<ch.length;j++){
               if(ch[i]>ch[j]){
