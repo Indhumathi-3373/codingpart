@@ -1,6 +1,6 @@
 //recursion upto 1000
 import java.util.*;
-public class decitobi {
+public class num_to_binary {
     static int binary(int num){
      if(num==0){
         return 0;
