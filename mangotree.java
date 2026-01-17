@@ -9,9 +9,9 @@ public class mangotree {
         System.out.println("number of rows : " + row);
         System.out.println("number of column : " + column);
         System.out.println("tree number : " + tree);
-        int tree2 = column * row;
-        if (tree <= tree2) {
-            if (tree % column == 1 || tree % column == 0) {
+        int total = column * row;
+        if (tree <= total && tree>0 ) {
+            if (tree<=column || tree % column == 1 || tree % column == 0) {
                 System.out.println("mango tree");
             }else {
             System.out.println("not a mango tree");
