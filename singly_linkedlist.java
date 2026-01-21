@@ -36,12 +36,14 @@ import java.util.*;
   Scanner sc=new Scanner(System.in);
   System.out.println("enter number of nodes :");
   int n=sc.nextInt();
-  System.out.println("enter node elements :");
+  System.out.println("enter node elements :");int count=0;
 for(int i=0;i<n;i++){
-    insert(sc.nextInt());
+    
+    insert(sc.nextInt());count++;
 }
 System.out.println("singly linked list :");
 display();
+System.out.println("total number of train coaches : "+count);
     }
 
 }
