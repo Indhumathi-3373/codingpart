@@ -43,7 +43,7 @@ public static void main(String args[]){
 insertnode(sc.nextInt());
    }
     System.out.println("\ndoubly linked list :");display();
-  System.out.println(" reversed doubly linked list :");reverse();
+  System.out.println(" reversed doubly linked list :");reverse();sc.close();
 }
 }
 

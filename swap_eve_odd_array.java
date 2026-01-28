@@ -1,7 +1,7 @@
 //example size 8 array 10 98 3 33 12 22 21 11
 //first two is even 3rd is odd means checking from last for any even value available if yes means swap  3 to that even value
 //output should be 10 98 22 12 33 3 21 11
-import java.io.*;
+
 import java.util.*;
 
 public class swap_eve_odd_array {
@@ -26,6 +26,6 @@ public class swap_eve_odd_array {
             }
         }for(int i=0;i<size;i++){
             System.out.print(arr[i]+" ");
-        }
+        }sc.close();
     }
 }

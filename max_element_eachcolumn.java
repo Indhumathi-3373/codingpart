@@ -1,4 +1,4 @@
-import java.io.*;
+
 import java.util.*;
 
 public class max_element_eachcolumn {
@@ -21,6 +21,6 @@ public class max_element_eachcolumn {
             }
         }System.out.println(temp);
     }
-
+sc.close();
     }
 }

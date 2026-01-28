@@ -12,7 +12,7 @@ public class missing_element_array {
           if(arr[i]==smallest){
               smallest++;
           }
-      }System.out.println(smallest);
+      }System.out.println(smallest);sc.close();
  
     }
 }

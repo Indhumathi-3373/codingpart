@@ -8,7 +8,7 @@ class node{
             this.next = null;
         }
     }
-public class sll_head_tail{
+public class reverse_sll{
     static node head = null;
     static node tail = null;
     static void insert(int data){
@@ -58,6 +58,6 @@ public class sll_head_tail{
             System.out.println("original nodes ");
         display();
         System.out.println("reversed nodes ");
-        reverse(head);
+        reverse(head);scan.close();
     }
 }

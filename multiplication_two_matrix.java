@@ -1,4 +1,4 @@
-import java.io.*;
+
 import java.util.*;
 
 public class multiplication_two_matrix
@@ -25,6 +25,6 @@ public class multiplication_two_matrix
             for(int j=0;j<size2;j++){
                 sum+=arr1[k][j]*arr2[j][i];
             }System.out.print(sum+" ");
-        }System.out.println();
+        }System.out.println();sc.close();
     }}
 }

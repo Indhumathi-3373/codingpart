@@ -1,5 +1,5 @@
 import java.util.*;
-public class doubly_linkedlist{
+public class redo_undo_browser{
 class Node{
   String url;
   Node prev,next;
@@ -20,31 +20,42 @@ void visited(String url){//visited page
 }
  void previous(){
     if(current.prev!=null){
+        System.out.print(" "+current.url);
        current= current.prev;
+    }else{
+        System.out.println("null");
     }
 }void forward(){
     if(current.next!=null){
+        System.out.print(" "+current.url);
         current=current.next;
+
+    }else{
+        System.out.println("null");
     }
 } void display(){
     System.out.println("current page"+current.url);
 }public static void main(String args[]){
     Scanner sc=new Scanner(System.in);
-    doubly_linkedlist dll=new doubly_linkedlist();
+    redo_undo_browser dll=new redo_undo_browser();
     System.out.println("enter number of operation :");
-    int operation=sc.nextInt();
-    sc.nextLine();//gives new line
-    for(int i=0;i<operation;i++){
-        String cmd=sc.nextLine();
-        if(cmd.startsWith("visit")){
-            dll.visited(cmd.split(" ")[1]);
-        }else if(cmd.equals("back")){
-            dll.previous();
-        }else if(cmd.equals("forward")){
-            dll.forward();
-        }else{
-            System.out.println("wrong input ");
-        }
-    }dll.display();
+    // int operation=sc.nextInt();
+    // sc.nextLine();//gives new line
+    // for(int i=0;i<operation;i++){
+    //     String cmd=sc.nextLine();
+        // if(cmd.startsWith("visit")){
+        //     dll.visited(cmd.split(" ")[1]);
+        // }else if(cmd.equals("back")){
+        //     dll.previous();
+        // }else if(cmd.equals("forward")){
+        //     dll.forward();
+        // }else{
+        //     System.out.println("wrong input ");
+        // }
+    //}
+    
+    // String text=sc.nextLine();
+
+    dll.display();sc.close();
 }
 }
