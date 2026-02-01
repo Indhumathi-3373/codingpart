@@ -1,5 +1,6 @@
 import java.util.*;
 import java.util.regex.Pattern;
+import java.io.*;
 
 public class std_registration_system {
     String register_number;
@@ -57,10 +58,12 @@ public class std_registration_system {
 
     }
 
-    public static void main(String args[]) {
+    public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         ArrayList<std_registration_system> students = new ArrayList<>();
         try {
+            
+
             while (true) {
                 System.out.println("=====================STUDENT REGISTRATION SYSTEM=====================");
                 System.out.println("1) new register");
@@ -173,6 +176,22 @@ public class std_registration_system {
                 }
 
             }
+           
+           try{ File f=new File("stddetails.txt");
+            if(f.exists()){
+                System.out.println("file name :" +f);
+            }else{
+                System.out.println("file created successfully");
+            }
+            BufferedWriter w1=new BufferedWriter(new FileWriter("stddetails.txt"));
+            for(Object s:students){
+                w1.write(s.toString());
+                sc.nextLine();
+            }
+w1.close();
+        }catch(IOException e){
+            System.out.println(e.getMessage());
+        }
         } catch (InputMismatchException e) {
             System.out.println(e.getMessage());
         }
