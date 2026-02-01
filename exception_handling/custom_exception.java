@@ -1,4 +1,4 @@
-package exception_handiling;
+//package exception_handling;
 import java.lang.Exception;
 
 class InsufficientBalanceexception extends Exception{

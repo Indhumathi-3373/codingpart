@@ -1,4 +1,5 @@
-package exception_handiling;
+//package exception_handling;
+
 import java.util.*;
 import java.util.regex.Pattern;
 import java.lang.Exception;
@@ -9,7 +10,7 @@ class regex_with_exception extends Exception{
 }
 public class panwithexception {
     static void pancard(String pan)throws regex_with_exception {
-    String regex_pan="^[a-zA-Z]{5}\\d{4}[a-zA-Z]{1}$";
+    String regex_pan="^[a-z|A-Z]{5}\\d{4}[a-zA-Z]{1}$";
     Pattern pattern=Pattern.compile(regex_pan);
     if(!pattern.matcher(regex_pan).matches()){
         throw new regex_with_exception("PAN must be in format: ABGHJ1010x");

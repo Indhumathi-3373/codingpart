@@ -1,4 +1,4 @@
-package exception_handiling;
+//package exception_handling;
 import java.util.*;
 public class exception_handling {
     static void throwex() throws Exception{
