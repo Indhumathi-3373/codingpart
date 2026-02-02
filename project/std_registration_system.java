@@ -1,3 +1,4 @@
+package project;
 import java.util.*;
 import java.util.regex.Pattern;
 import java.io.*;
@@ -186,9 +187,9 @@ public class std_registration_system {
             BufferedWriter w1=new BufferedWriter(new FileWriter("stddetails.txt"));
             for(Object s:students){
                 w1.write(s.toString());
-                sc.nextLine();
+               
             }
-w1.close();
+           w1.close();
         }catch(IOException e){
             System.out.println(e.getMessage());
         }
