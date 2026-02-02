@@ -1,3 +1,4 @@
+package basics;
  import java.util.*;
  public class firstandlast{
      public static void main(String args[]){

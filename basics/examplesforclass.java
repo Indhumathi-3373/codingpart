@@ -1,3 +1,4 @@
+package basics;
 class car{
     String brand="tata";
     String model="punch";

@@ -1,3 +1,4 @@
+package naming_algorithms;
 import java.util.Scanner;
 
 public class kaprekal {

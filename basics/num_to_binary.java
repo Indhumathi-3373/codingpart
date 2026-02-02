@@ -1,3 +1,4 @@
+package basics;
 //recursion upto 1000
 import java.util.*;
 public class num_to_binary {

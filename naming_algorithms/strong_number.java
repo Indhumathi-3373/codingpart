@@ -1,3 +1,4 @@
+package naming_algorithms;
 import java.util.*;
 public class strong_number {
    public static void main(String[] args) {

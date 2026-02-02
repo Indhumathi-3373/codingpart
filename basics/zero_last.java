@@ -1,3 +1,4 @@
+package basics;
 import java.util.*;
 public class zero_last {
     public static void main(String args[]){
@@ -15,10 +16,9 @@ public class zero_last {
             }else{
                 num2=num2*10+num1;//for adding digits like 1+1=11
             }
-            num=num/10;
-        }System.out.print(num2);
         for(int i=0;i<count;i++){
             System.out.print("0");
             
           } System.out.println();num2=0;count=0; }scan.close();}
+}
 }
