@@ -43,15 +43,12 @@ public class reverse_sll{
     System.out.print(temp.data + " ");
 }
 
-    static void print(String s){
-        System.out.println(s);
-    }
 
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
             int num = scan.nextInt();
-            print("enter number of nodes");
+            System.out.println("enter number of nodes");
             while (num >0){
                 insert(num);
                 num = scan.nextInt();
@@ -59,6 +56,7 @@ public class reverse_sll{
             System.out.println("original nodes ");
         display();
         System.out.println("reversed nodes ");
-        reverse(head);scan.close();
+        reverse(head);
+        scan.close();
     }
 }

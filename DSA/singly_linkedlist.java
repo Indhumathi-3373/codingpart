@@ -75,15 +75,15 @@ public class singly_linkedlist {
             return;
         }
         if(pos==1){
-         head=head.next;return;
-        }Node current=head.next;//current->[2|next->3]
-           for(int i=2;i<=pos;i++){
-            if(pos==2){
-                current=current.next.next;
-            }
-           current=current.next;
-           }
+         head=head.next;//head->[2|next->3]
+         return;
+        }Node current=head;//current->[1|next->2]
         
+           for(int i=1;i<pos-1;i++){
+            current=current.next;
+            
+           }
+        current.next=current.next.next;
     }
     static void displaydeletebyposition(){
         Node cur=head;

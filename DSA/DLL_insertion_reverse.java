@@ -31,7 +31,8 @@ static void display(){
     }System.out.print("null");
 }
 static void reverse(){
-    node current=tail;System.out.println();
+    node current=tail;
+    System.out.println();
     while(current !=null){
         System.out.print(current.data +" ");
         current=current.prev;
