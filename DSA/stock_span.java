@@ -1,4 +1,4 @@
-//package DSA;
+package DSA;
 import java.util.*;
 public class stock_span {
     public static void calculatespan(int price[]){
